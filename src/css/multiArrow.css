@@ -1,0 +1,13 @@
+.multipleArrowBox{
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.multipleArrowBox img{
+    width: 100%;
+    background-size: cover;
+}

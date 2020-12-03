@@ -1,0 +1,33 @@
+.multipleBoxWraper{
+    display: flex;
+}
+
+.box{
+    height: 50px;
+    width: 60px;
+    border-radius: 10px;
+    border-color: lightblue;
+    font-size: 12px;
+    font-weight: 500;
+    /* display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center; */
+}
+
+.box:nth-child(1){
+    background-color: blue;
+    transform: translate(3px, -3px);
+}
+.box:nth-child(2){
+    background-color: rgb(200, 204, 200);
+    transform: translate(6px, -6px);
+}
+.box:nth-child(3){
+    background-color: rgb(255, 38, 0);
+    transform: translate(9px, -9px);
+}
+.box:nth-child(4){
+    background-color: rgb(255, 0, 221);
+    transform: translate(12px, -12px);
+}

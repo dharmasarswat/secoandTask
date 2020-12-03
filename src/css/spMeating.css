@@ -1,0 +1,33 @@
+.SPMeatingBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.SPMeatingBox .SPMeatingTextBox{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.SPMeatingBox .SPMeatingTextBox .innerText{
+    background-color: #fdd29c;
+    border: 2px solid #d1d7dc;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.SPMeatingBox .SPMeatingTextBox .boxShadow{
+    width: 50px;
+    border: 2px solid #d1d7dc;
+    z-index: -1;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transform: translateX(-4px);
+    border-left: none;
+}

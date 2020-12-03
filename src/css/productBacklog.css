@@ -1,0 +1,64 @@
+.productBacklogBox{
+    min-width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.productBacklogBox .linesWraperBox{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.productBacklogBox .linesWraperBox .lines{
+    border: 2px solid #a7aa97;
+    border-radius: 10px;
+    height: 100%;
+    text-align: left;
+}
+
+.productBacklogBox .linesWraperBox .boxShadow{
+    width: 50px;
+    border: 2px solid #d1d7dc;
+    z-index: -1;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transform: translateX(-20px);
+    border-left: none;
+}
+
+.productBacklogBox .linesWraperBox .lines .productBlockline{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 2px 4px;
+    border-bottom: 2px solid #8eb7c1;
+    background-color: #c3dceb;
+}
+
+.productBacklogBox .linesWraperBox .lines .productBlockline:nth-child(1){
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.productBacklogBox .linesWraperBox .lines .productBlockline:nth-child(1), .productBacklogBox .linesWraperBox .lines .productBlockline:nth-child(2){
+    width: 100%;
+    padding: 2px 4px;
+    background-color: #fdd29c;
+    border-bottom: 2px solid #e7b472;
+}
+
+.productBacklogBox .linesWraperBox .lines .productBlockline:nth-child(3){
+    background-color: #fdd29c;
+}
+
+.productBacklogBox .linesWraperBox .lines .productBlockline:last-child{
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
